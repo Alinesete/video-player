@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+/* Video Player */
+
+.player-video{
+    position: relative;
+    float: float;
+    width: 640px;
+    height: 360px;
+    background-color: black;
+}
+
+.player-video video{
+    width: 100%;
+    height: 100%;
+}
+
+.video-preloader{
+    display: none;
+    position: absolute;
+    width: 80px;
+    width: 80px;
+    left: 43%;
+    top: 35%;
+    background: url(skinPlayer/loader.gif) center center no-repeat;
+    background-size: auto 40%;
+    cursor: pointer;
+}
+
+.player-video .video-controls{
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 10%;
+    bottom: 0;
+}
+
+.video-controls .btn-video{
+    display: block;
+    width: 40px;
+    height: 90%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.video-controls .btn-video:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+
+.video-controls .video-play{
+    background: url(skinPlayer/play.png) center center no-repeat;
+    background-size: auto 50%;
+}
+
+.video-controls .video-volume{
+    background: url(skinPlayer/volume-medium.png) center center no-repeat;
+    background-size: auto 50%;
+}
+
+.video-controls .video-screen{
+    background: url(skinPlayer/full-screen.png) center center no-repeat;
+    background-size: auto 50%;
+}
+
+.video-progress-bar{
+    cursor: pointer;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(200,200,200,0.5);
+}
+
+.video-loader{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.video-progress{
+    position: abolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+.video-controls .video-time{
+    display: block;
+    cursor: default;
+    color: white;
+    font-size: 0.9em;
+    padding: 8px 5px;
+}
+
+.slider{
+    background-color: rgba(255,255,255,0.8);
+    width: 80px;
+    height: 20%;
+    margin: 2% 0;
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 1px;
+}
+
+.slider-vol{
+    width: 100%;
+    background-color: rgba(255,0,0,0.5);
+    height: 100%;
+    cursor: pointer;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Video</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body oncontextmenu="return false">
+
+        <div id="midia" class="player-video" onmouseover="prepare(this)">
+
+            <video class="video-view" poster="capa.jpg" preload="none">
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4"/>
+            </video>
+
+<!-- <div class="video-preloader"></div> -->
+
+            <div class="video-controls">
+                <div class="video-progress-bar floar-left">
+                    <div class="video-loader"></div>
+                    <div class="video-progress"></div>
+                </div>
+
+                <div class="video-play float-left btn-video"></div>
+                <div class="video-volume float-left btn-video"></div>
+
+                <div class="slider float-left">
+                    <div class="slider-vol"></div>
+                </div>
+
+                <div class="video-time float-left">00:00 | 00:00</div>
+                <div class="video-screen float-right btn-video"></div>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+        
+    </body>
+</html>
